@@ -6,6 +6,6 @@ import {
   
 } from "../controllers/customerController.js";
 
-router.route("/").get(getAllCustomers).post(populateDummyData)
+router.route("/").get(getAllCustomers).post(populateDummyData);
 
 export default router;
